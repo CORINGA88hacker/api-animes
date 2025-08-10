@@ -4,7 +4,7 @@ const animes = [
     nome: "One Piece",
     data: "1999-10-20",
     avaliacao: 8.8,
-    capa: "https://upload.wikimedia.org/wikipedia/en/6/65/One_Piece_Logo.png"
+    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mOrmYBUH7YfMBkSgGKXya13Xmbm.jpg"
   },
   {
     id: "02",
@@ -18,7 +18,7 @@ const animes = [
     nome: "Ataque a Titã",
     data: "2013-04-07",
     avaliacao: 9.0,
-    capa: "https://upload.wikimedia.org/wikipedia/en/0/0d/Attack_on_Titan_S1_cover.jpg"
+    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg"
   },
   {
     id: "04",
