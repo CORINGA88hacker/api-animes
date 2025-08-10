@@ -25,7 +25,7 @@ const animes = [
     nome: "Fullmetal Alchemist: Brotherhood",
     data: "2009-04-05",
     avaliacao: 9.2,
-    capa: "https://upload.wikimedia.org/wikipedia/en/7/7f/Fullmetal_Alchemist_Brotherhood_Volume_1.jpg"
+    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg"
   },
   {
     id: "05",
