@@ -127,5 +127,31 @@
     "linguagem": "LEG",
     "msg": "Classificação 10. Para todas as idades.",
     "qualidade": "HD"
-  }
+  },
+  {
+  "id": "456",
+  "nome": "The Simpsons",
+  "titulo_original": "The Simpsons",
+  "genero": "Família, Animação, Comédia",
+  "descricao": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+  "ano": "1989",
+  "status": "Série em Andamento",
+  "pais": "US",
+  "duracao_episodio": "22",
+  "classificacao": "10+",
+  "popularidade": "91.2731",
+  "trailer": "",
+  "capa": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
+  "banner": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/10aeDtlk3kHmB0jzmx7PA6IyXPv.jpg",
+  "logo": "",
+  "thumbnail": "",
+  "tmdb_id": "456",
+  "imdb_id": "tt0096697",
+  "data_criacao": "1989-12-17T00:00:00.000Z",
+  "data_atualizacao": "2025-08-10T20:34:24.773Z",
+  "coluna": "",
+  "linguagem": "en",
+  "msg": "",
+  "qualidade": "HD"
+}
 ]
