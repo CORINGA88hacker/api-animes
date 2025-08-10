@@ -1,10 +1,10 @@
-const array = [
+const animes = [
   {
     id: "01",
     nome: "One Piece",
     data: "1999-10-20",
     avaliacao: 8.8,
-    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mOrmYBUH7YfMBkSgGKXya13Xmbm.jpg"
+    capa: "https://upload.wikimedia.org/wikipedia/en/6/65/One_Piece_Logo.png"
   },
   {
     id: "02",
@@ -18,21 +18,21 @@ const array = [
     nome: "Ataque a Titã",
     data: "2013-04-07",
     avaliacao: 9.0,
-    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg"
+    capa: "https://upload.wikimedia.org/wikipedia/en/0/0d/Attack_on_Titan_S1_cover.jpg"
   },
   {
     id: "04",
     nome: "Fullmetal Alchemist: Brotherhood",
     data: "2009-04-05",
     avaliacao: 9.2,
-    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg"
+    capa: "https://upload.wikimedia.org/wikipedia/en/7/7f/Fullmetal_Alchemist_Brotherhood_Volume_1.jpg"
   },
   {
     id: "05",
     nome: "Death Note",
     data: "2006-10-04",
     avaliacao: 8.7,
-    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg"
+    capa: "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.png"
   },
   {
     id: "06",
