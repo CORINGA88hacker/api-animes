@@ -1,4 +1,4 @@
-const animes = [
+const array = [
   {
     id: "01",
     nome: "One Piece",
