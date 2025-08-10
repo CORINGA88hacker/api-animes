@@ -1,5 +1,4 @@
-const animes = [
-  {
+{
     id: "01",
     nome: "One Piece",
     data: "1999-10-20",
@@ -83,4 +82,3 @@ const animes = [
     avaliacao: 8.7,
     capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/c8fHePq3yTn3WvZd4hupkHwsjm5.jpg"
   }
-];
