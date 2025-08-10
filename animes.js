@@ -32,7 +32,7 @@ const animes = [
     nome: "Death Note",
     data: "2006-10-04",
     avaliacao: 8.7,
-    capa: "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.png"
+    capa: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg"
   },
   {
     id: "06",
