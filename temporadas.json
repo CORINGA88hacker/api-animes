@@ -1,5 +1,19 @@
 [
   {
+    "id": "281044-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/gP7rdhoejxIwZUzB6vpnlsQsdOB.jpg",
+    "anime_id": "281044-1",
+    "total_episodios": 24,
+    "tmdb_id": "281044-1",
+    "data_criacao": "2025-07-11T00:00:00.000Z",
+    "data_atualizacao": "2025-08-13T05:24:29.584Z",
+    "coluna": ""
+  },
+  {
     "id": "137065-1",
     "nome": "PRELUDE TO DAWN",
     "numero": 1,
