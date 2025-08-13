@@ -1,5 +1,47 @@
 [
   {
+    "id": "137065",
+    "nome": "PRELUDE TO DAWN",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2022",
+    "capa": "https://image.tmdb.org/t/p/w500/1iHeGtrO0W0dmR9M13oBLYVd01H.jpg",
+    "anime_id": "137065",
+    "total_episodios": 8,
+    "tmdb_id": "137065-1",
+    "data_criacao": "2022-10-29T00:00:00.000Z",
+    "data_atualizacao": "2025-08-13T04:21:48.769Z",
+    "coluna": ""
+  },
+  {
+    "id": "137065",
+    "nome": "PERISH IN FROST",
+    "numero": 2,
+    "descricao": "Sem descrição",
+    "ano": "2023",
+    "capa": "https://image.tmdb.org/t/p/w500/7btGc8IrTyDFmzsBHlygy1Joz8J.jpg",
+    "anime_id": "137065",
+    "total_episodios": 8,
+    "tmdb_id": "137065-2",
+    "data_criacao": "2023-10-07T00:00:00.000Z",
+    "data_atualizacao": "2025-08-13T04:21:49.208Z",
+    "coluna": ""
+  },
+  {
+    "id": "137065",
+    "nome": "RISE FROM EMBER",
+    "numero": 3,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/lfYjDyB9x3KzYp3OzJnciJ5oBWj.jpg",
+    "anime_id": "137065",
+    "total_episodios": 10,
+    "tmdb_id": "137065-3",
+    "data_criacao": "2025-07-04T00:00:00.000Z",
+    "data_atualizacao": "2025-08-13T04:21:49.616Z",
+    "coluna": ""
+  },
+  {
     "id": "63926",
     "nome": "Temporada 1",
     "numero": 1,
