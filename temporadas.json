@@ -1,5 +1,19 @@
 [
   {
+    "id": "32871",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2011",
+    "capa": "https://image.tmdb.org/t/p/w500/5b7rwkJKYZVGNoa8JRYDFFfSPSU.jpg",
+    "anime_id": "32871",
+    "total_episodios": 22,
+    "tmdb_id": "32871-1",
+    "data_criacao": "2011-01-12T00:00:00.000Z",
+    "data_atualizacao": "2025-08-15T18:01:57.377Z",
+    "coluna": ""
+  },
+  {
     "id": "258348-1",
     "nome": "Temporada 1",
     "numero": 1,
