@@ -1,5 +1,22 @@
 [
   {
+    "id": "31132-1-1",
+    "nome": "A Força",
+    "numero": 1,
+    "descricao": "Mordecai e Rigby fazem um buraco na parede de seu quarto, como eles não podem pagar o conserto eles usam um teclado mágico, que Rigby havia roubado de um mago, para Benson dar aumento a eles, mas acidentalmente Rigby manda Saltitão para a Lua.",
+    "duracao": "10",
+    "data_lancamento": "2010-09-06",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/wVATvYCDhVW00APlQkzySXmMeCY.jpg",
+    "temporada_id": "31132-1",
+    "legendado": "",
+    "dublado": "http://maxplusv3.maxplusoapp.site/episodes/apenas-um-show-1x1/",
+    "tmdb_id": "31132-1-1",
+    "data_criacao": "2010-09-06T00:00:00.000Z",
+    "data_atualizacao": "2025-08-16T04:32:35.846Z",
+    "comeco": "",
+    "final": ""
+  },
+  {
     "id": "94664-1-1",
     "nome": "Reencarnação sem emprego",
     "numero": "1",
