@@ -3,239 +3,184 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Editor de JSON GitHub</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<title>Painel Admin TMDb + GitHub</title>
 <style>
-body {
-  font-family: 'Roboto', sans-serif;
-  background: #121212;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-.container {
-  max-width: 1000px;
-  margin: 40px auto;
-  background: #1f1f2e;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-}
-h2 {
-  text-align: center;
-  color: #ff6b6b;
-  margin-bottom: 30px;
-}
-.tabs {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #333;
-}
-.tab {
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 10px 10px 0 0;
-  background: #2a2a3f;
-  transition: 0.3s;
-  font-weight: 500;
-}
-.tab.active {
-  background: #ff6b6b;
-  color: #fff;
-  font-weight: 700;
-}
-#linhaWrapper {
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-#linhaWrapper input {
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: none;
-  width: 120px;
-}
-#linhaWrapper button {
-  padding: 6px 15px;
-  border-radius: 5px;
-  border: none;
-  background: #ff6b6b;
-  color: #fff;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-#linhaWrapper button:hover { background: #e55b5b; }
-
-textarea {
-  width: 100%;
-  height: 400px;
-  background: #2a2a3f;
-  border: none;
-  border-radius: 10px;
-  padding: 15px;
-  color: #fff;
-  font-family: 'Courier New', monospace;
-  font-size: 14px;
-  resize: vertical;
-}
-.buttons {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 15px;
-  gap: 10px;
-}
-button {
-  padding: 12px 25px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  background: #ff6b6b;
-  color: #fff;
-  font-weight: 500;
-  transition: background 0.3s ease;
-}
-button:hover { background: #e55b5b; }
-@media (max-width: 600px) {
-  .buttons { flex-direction: column; }
-  button { width: 100%; }
-  .tabs { flex-direction: column; }
-  .tab { margin-bottom: 5px; }
-}
+body { font-family: 'Segoe UI', sans-serif; background: #121212; color: #eee; padding: 20px; max-width: 900px; margin: auto; }
+h1 { text-align: center; color: #ff4e00; }
+label { display:block; margin-top:10px; font-weight:bold; color: #ffa64d; }
+input, textarea { width:100%; padding:8px; margin-top:5px; border-radius:5px; border:none; background:#333; color:#eee; }
+button { margin-top:15px; padding:10px 20px; border:none; border-radius:8px; background:#ff4e00; color:white; font-weight:bold; cursor:pointer; }
+pre { background:#222; padding:20px; border-radius:10px; overflow-x:auto; max-height:300px; color:#0f0; font-family: monospace; margin-top:10px; }
+.error { color:#f55; margin-top:10px; font-weight:bold; }
 </style>
 </head>
 <body>
+<h1>Painel Admin - Anime TMDb + GitHub</h1>
 
-<div class="container">
-  <h2>Editor de JSON GitHub</h2>
+<label for="tmdb_id_field">TMDb ID</label>
+<input type="text" id="tmdb_id_field" placeholder="Digite o TMDb ID">
 
-  <div class="tabs">
-    <div class="tab active" data-file="animes.json">animes.json</div>
-    <div class="tab" data-file="episodios.json">episodios.json</div>
-    <div class="tab" data-file="temporadas.json">temporadas.json</div>
-  </div>
+<button id="buscarBtn">Buscar do TMDb</button>
 
-  <div id="linhaWrapper">
-    <label for="linhaInput">Ir para linha:</label>
-    <input type="number" id="linhaInput" placeholder="Número da linha">
-    <button id="gotoBtn">Ir</button>
-  </div>
+<label for="nome">Nome</label>
+<input type="text" id="nome">
 
-  <textarea id="jsonEditor" placeholder="O conteúdo do JSON será carregado aqui..."></textarea>
+<label for="titulo_original">Título Original</label>
+<input type="text" id="titulo_original">
 
-  <div class="buttons">
-    <button id="loadBtn">Carregar JSON</button>
-    <button id="saveBtn">Salvar no GitHub</button>
-  </div>
-</div>
+<label for="genero">Gênero</label>
+<input type="text" id="genero">
+
+<label for="descricao">Descrição</label>
+<textarea id="descricao"></textarea>
+
+<label for="ano">Ano</label>
+<input type="text" id="ano">
+
+<label for="status">Status</label>
+<input type="text" id="status">
+
+<label for="pais">País</label>
+<input type="text" id="pais">
+
+<label for="duracao_episodio">Duração do Episódio</label>
+<input type="text" id="duracao_episodio">
+
+<label for="classificacao">Classificação</label>
+<input type="text" id="classificacao">
+
+<label for="popularidade">Popularidade</label>
+<input type="text" id="popularidade">
+
+<label for="trailer">Trailer</label>
+<input type="text" id="trailer">
+
+<label for="capa">Capa</label>
+<input type="text" id="capa">
+
+<label for="banner">Banner</label>
+<input type="text" id="banner">
+
+<label for="logo">Logo</label>
+<input type="text" id="logo">
+
+<label for="imdb_id">IMDB ID</label>
+<input type="text" id="imdb_id">
+
+<label for="linguagem">Linguagem</label>
+<input type="text" id="linguagem">
+
+<label for="msg">Mensagem</label>
+<input type="text" id="msg">
+
+<label for="qualidade">Qualidade</label>
+<input type="text" id="qualidade" value="HD">
+
+<label for="coluna">Coluna</label>
+<input type="text" id="coluna">
+
+<label for="data_criacao">Data de Criação</label>
+<input type="text" id="data_criacao">
+
+<div class="error" id="errorMsg"></div>
+<button id="enviarBtn">Enviar para GitHub</button>
+<pre id="jsonOutput"></pre>
 
 <script>
-const token = "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";
+const TMDB_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZjZhMGEzMjhmOWY2NzY5MzZmNDBiZjRmYmIyY2U5YSIsIm5iZiI6MTY4MjcwODQzNi44NTY5OTk5LCJzdWIiOiI2NDRjMTdkNDUxYTY0ZTA4OGFkZDY4MmEiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.k4rE_75eOyG6BWcYCAa2sbcGHVpsX9UTH4Y5NVoQ0L4";
+const GITHUB_TOKEN = "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";
 const owner = "CORINGA88hacker";
 const repo = "api-animes";
+const path = "animes.json";
 const branch = "main";
 
-let currentSHA = "";
-let currentFile = "animes.json";
+const errorMsg = document.getElementById("errorMsg");
+const output = document.getElementById("jsonOutput");
 
-const tabs = document.querySelectorAll('.tab');
-tabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    tabs.forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    currentFile = tab.dataset.file;
-    fetchJSON();
+async function fetchTMDB(id) {
+  const headers = { Authorization: "Bearer " + TMDB_TOKEN };
+  const serie = await fetch(`https://api.themoviedb.org/3/tv/${id}?language=pt-BR`, { headers }).then(r => r.json());
+  const trailerData = await fetch(`https://api.themoviedb.org/3/tv/${id}/videos?language=pt-BR`, { headers }).then(r => r.json());
+  const externalIds = await fetch(`https://api.themoviedb.org/3/tv/${id}/external_ids`, { headers }).then(r => r.json());
+  const logoData = await fetch(`https://api.themoviedb.org/3/tv/${id}/images`, { headers }).then(r => r.json());
+  
+  const trailer = trailerData.results.find(v=>v.type==="Trailer"&&v.site==="YouTube") || {};
+  const logo = (logoData.logos && logoData.logos[0]?.file_path) || (logoData.posters && logoData.posters[0]?.file_path) || "";
+
+  return {
+    id: id,
+    nome: serie.name || "",
+    titulo_original: serie.original_name || "",
+    genero: (serie.genres||[]).map(g=>g.name).join(", "),
+    descricao: serie.overview || "",
+    ano: (serie.first_air_date||"").slice(0,4),
+    status: serie.status || "",
+    pais: serie.origin_country?.[0]||"",
+    duracao_episodio: serie.episode_run_time?.[0]?.toString()||"",
+    classificacao: serie.adult ? "18+" : "10+",
+    popularidade: serie.popularity?.toFixed(4)||"",
+    trailer: trailer.key ? `https://www.youtube.com/watch?v=${trailer.key}` : "",
+    capa: serie.poster_path ? `https://image.tmdb.org/t/p/w600_and_h900_bestv2${serie.poster_path}` : "",
+    banner: serie.backdrop_path ? `https://image.tmdb.org/t/p/w1280${serie.backdrop_path}` : "",
+    logo: logo ? `https://image.tmdb.org/t/p/w500${logo}` : "",
+    thumbnail: "",
+    tmdb_id: id,
+    imdb_id: externalIds.imdb_id || "",
+    data_criacao: serie.first_air_date ? new Date(serie.first_air_date).toISOString() : "",
+    data_atualizacao: new Date().toISOString(),
+    coluna: "",
+    linguagem: serie.original_language || "",
+    msg: serie.tagline || "",
+    qualidade: "HD"
+  };
+}
+
+async function fetchGitHub() {
+  const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`, {
+    headers: { Authorization: `token ${GITHUB_TOKEN}`, Accept: "application/vnd.github.v3+json" }
   });
-});
-
-async function fetchJSON() {
-  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${currentFile}?ref=${branch}`;
-  try {
-    const res = await fetch(url, {
-      headers: {
-        "Authorization": `token ${token}`,
-        "Accept": "application/vnd.github.v3+json"
-      }
-    });
-    const data = await res.json();
-    console.log(data);
-    if (data.content) {
-      currentSHA = data.sha;
-      const decoded = atob(data.content);
-      try {
-        const formatted = JSON.stringify(JSON.parse(decoded), null, 2);
-        document.getElementById("jsonEditor").value = formatted;
-      } catch(e) {
-        document.getElementById("jsonEditor").value = decoded;
-      }
-    } else {
-      alert("Erro ao buscar arquivo: " + JSON.stringify(data));
-      document.getElementById("jsonEditor").value = "";
-    }
-  } catch(err) {
-    alert("Erro de conexão: " + err);
-  }
+  const data = await res.json();
+  if(!data.content) throw new Error("Erro ao buscar JSON do GitHub");
+  window.currentSHA = data.sha;
+  return JSON.parse(atob(data.content));
 }
 
-async function saveJSON() {
-  const novoConteudo = document.getElementById("jsonEditor").value;
-  const base64Content = btoa(unescape(encodeURIComponent(novoConteudo)));
-  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${currentFile}`;
-  try {
-    const res = await fetch(url, {
-      method: "PUT",
-      headers: {
-        "Authorization": `token ${token}`,
-        "Accept": "application/vnd.github.v3+json"
-      },
-      body: JSON.stringify({
-        message: `Atualizando ${currentFile} via editor web`,
-        content: base64Content,
-        sha: currentSHA,
-        branch: branch
-      })
-    });
-    const data = await res.json();
-    if (data.content) {
-      currentSHA = data.content.sha;
-      alert(`${currentFile} atualizado com sucesso!`);
-    } else {
-      alert("Erro ao salvar: " + JSON.stringify(data));
-    }
-  } catch(err) {
-    alert("Erro de conexão: " + err);
-  }
+async function saveGitHub(jsonData) {
+  const base64Content = btoa(JSON.stringify(jsonData, null, 2));
+  const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, {
+    method: "PUT",
+    headers: { Authorization: `token ${GITHUB_TOKEN}`, Accept: "application/vnd.github.v3+json" },
+    body: JSON.stringify({ message:"Atualizado via painel admin", content:base64Content, sha:window.currentSHA, branch })
+  });
+  const data = await res.json();
+  if(!data.content) throw new Error(JSON.stringify(data));
+  alert("Anime enviado com sucesso!");
 }
 
-// Funcionalidade "Ir para linha"
-document.getElementById("gotoBtn").addEventListener("click", () => {
-  const linha = parseInt(document.getElementById("linhaInput").value);
-  if (!linha || linha < 1) return;
-
-  const textarea = document.getElementById("jsonEditor");
-  const lines = textarea.value.split("\n");
-
-  if (linha > lines.length) {
-    alert("Linha fora do alcance!");
-    return;
-  }
-
-  let pos = 0;
-  for (let i = 0; i < linha - 1; i++) pos += lines[i].length + 1;
-
-  textarea.focus();
-  textarea.setSelectionRange(pos, pos + lines[linha - 1].length);
-  textarea.scrollTop = textarea.scrollHeight * ((linha - 1)/lines.length);
+document.getElementById("buscarBtn").addEventListener("click", async () => {
+  errorMsg.textContent = "";
+  try {
+    const id = document.getElementById("tmdb_id_field").value.trim();
+    if(!id) throw new Error("Digite o TMDb ID");
+    const anime = await fetchTMDB(id);
+    // Preenche os campos
+    for(const key in anime) {
+      const el = document.getElementById(key);
+      if(el) el.value = anime[key];
+    }
+  } catch(err) { errorMsg.textContent = err.message; }
 });
 
-document.getElementById("loadBtn").addEventListener("click", fetchJSON);
-document.getElementById("saveBtn").addEventListener("click", saveJSON);
-
-// Carrega automaticamente o arquivo inicial
-fetchJSON();
+document.getElementById("enviarBtn").addEventListener("click", async () => {
+  errorMsg.textContent = "";
+  try {
+    const newAnime = {};
+    document.querySelectorAll("input,textarea").forEach(i=>{ newAnime[i.id] = i.value; });
+    const jsonData = await fetchGitHub();
+    jsonData.push(newAnime);
+    await saveGitHub(jsonData);
+  } catch(err) { errorMsg.textContent = err.message; }
+});
 </script>
-
 </body>
 </html>
