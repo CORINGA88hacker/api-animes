@@ -45,6 +45,29 @@ h2 {
   color: #fff;
   font-weight: 700;
 }
+#linhaWrapper {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#linhaWrapper input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  width: 120px;
+}
+#linhaWrapper button {
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #ff6b6b;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#linhaWrapper button:hover { background: #e55b5b; }
+
 textarea {
   width: 100%;
   height: 400px;
@@ -74,9 +97,7 @@ button {
   font-weight: 500;
   transition: background 0.3s ease;
 }
-button:hover {
-  background: #e55b5b;
-}
+button:hover { background: #e55b5b; }
 @media (max-width: 600px) {
   .buttons { flex-direction: column; }
   button { width: 100%; }
@@ -94,6 +115,12 @@ button:hover {
     <div class="tab active" data-file="animes.json">animes.json</div>
     <div class="tab" data-file="episodios.json">episodios.json</div>
     <div class="tab" data-file="temporadas.json">temporadas.json</div>
+  </div>
+
+  <div id="linhaWrapper">
+    <label for="linhaInput">Ir para linha:</label>
+    <input type="number" id="linhaInput" placeholder="Número da linha">
+    <button id="gotoBtn">Ir</button>
   </div>
 
   <textarea id="jsonEditor" placeholder="O conteúdo do JSON será carregado aqui..."></textarea>
@@ -133,11 +160,10 @@ async function fetchJSON() {
       }
     });
     const data = await res.json();
-    console.log(data); // Para depuração
+    console.log(data);
     if (data.content) {
       currentSHA = data.sha;
       const decoded = atob(data.content);
-      // Formata o JSON para ficar mais legível
       try {
         const formatted = JSON.stringify(JSON.parse(decoded), null, 2);
         document.getElementById("jsonEditor").value = formatted;
@@ -182,6 +208,27 @@ async function saveJSON() {
     alert("Erro de conexão: " + err);
   }
 }
+
+// Funcionalidade "Ir para linha"
+document.getElementById("gotoBtn").addEventListener("click", () => {
+  const linha = parseInt(document.getElementById("linhaInput").value);
+  if (!linha || linha < 1) return;
+
+  const textarea = document.getElementById("jsonEditor");
+  const lines = textarea.value.split("\n");
+
+  if (linha > lines.length) {
+    alert("Linha fora do alcance!");
+    return;
+  }
+
+  let pos = 0;
+  for (let i = 0; i < linha - 1; i++) pos += lines[i].length + 1;
+
+  textarea.focus();
+  textarea.setSelectionRange(pos, pos + lines[linha - 1].length);
+  textarea.scrollTop = textarea.scrollHeight * ((linha - 1)/lines.length);
+});
 
 document.getElementById("loadBtn").addEventListener("click", fetchJSON);
 document.getElementById("saveBtn").addEventListener("click", saveJSON);
