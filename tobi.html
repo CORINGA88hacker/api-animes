@@ -13,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .container {
   max-width: 1000px;
   margin: 40px auto;
@@ -22,20 +21,17 @@ body {
   padding: 20px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
-
 h2 {
   text-align: center;
   color: #ff6b6b;
   margin-bottom: 30px;
 }
-
 .tabs {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
   border-bottom: 2px solid #333;
 }
-
 .tab {
   padding: 10px 20px;
   cursor: pointer;
@@ -44,13 +40,11 @@ h2 {
   transition: 0.3s;
   font-weight: 500;
 }
-
 .tab.active {
   background: #ff6b6b;
   color: #fff;
   font-weight: 700;
 }
-
 textarea {
   width: 100%;
   height: 400px;
@@ -63,14 +57,12 @@ textarea {
   font-size: 14px;
   resize: vertical;
 }
-
 .buttons {
   display: flex;
   justify-content: flex-end;
   margin-top: 15px;
   gap: 10px;
 }
-
 button {
   padding: 12px 25px;
   font-size: 16px;
@@ -82,27 +74,14 @@ button {
   font-weight: 500;
   transition: background 0.3s ease;
 }
-
 button:hover {
   background: #e55b5b;
 }
-
 @media (max-width: 600px) {
-  .buttons {
-    flex-direction: column;
-  }
-
-  button {
-    width: 100%;
-  }
-
-  .tabs {
-    flex-direction: column;
-  }
-
-  .tab {
-    margin-bottom: 5px;
-  }
+  .buttons { flex-direction: column; }
+  button { width: 100%; }
+  .tabs { flex-direction: column; }
+  .tab { margin-bottom: 5px; }
 }
 </style>
 </head>
@@ -146,21 +125,31 @@ tabs.forEach(tab => {
 
 async function fetchJSON() {
   const url = `https://api.github.com/repos/${owner}/${repo}/contents/${currentFile}?ref=${branch}`;
-
-  const res = await fetch(url, {
-    headers: {
-      "Authorization": `token ${token}`,
-      "Accept": "application/vnd.github.v3+json"
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "Authorization": `token ${token}`,
+        "Accept": "application/vnd.github.v3+json"
+      }
+    });
+    const data = await res.json();
+    console.log(data); // Para depuração
+    if (data.content) {
+      currentSHA = data.sha;
+      const decoded = atob(data.content);
+      // Formata o JSON para ficar mais legível
+      try {
+        const formatted = JSON.stringify(JSON.parse(decoded), null, 2);
+        document.getElementById("jsonEditor").value = formatted;
+      } catch(e) {
+        document.getElementById("jsonEditor").value = decoded;
+      }
+    } else {
+      alert("Erro ao buscar arquivo: " + JSON.stringify(data));
+      document.getElementById("jsonEditor").value = "";
     }
-  });
-
-  const data = await res.json();
-  if (data.content) {
-    currentSHA = data.sha;
-    const decoded = atob(data.content);
-    document.getElementById("jsonEditor").value = decoded;
-  } else {
-    alert("Erro ao buscar arquivo: " + JSON.stringify(data));
+  } catch(err) {
+    alert("Erro de conexão: " + err);
   }
 }
 
@@ -168,34 +157,36 @@ async function saveJSON() {
   const novoConteudo = document.getElementById("jsonEditor").value;
   const base64Content = btoa(unescape(encodeURIComponent(novoConteudo)));
   const url = `https://api.github.com/repos/${owner}/${repo}/contents/${currentFile}`;
-
-  const res = await fetch(url, {
-    method: "PUT",
-    headers: {
-      "Authorization": `token ${token}`,
-      "Accept": "application/vnd.github.v3+json`
-    },
-    body: JSON.stringify({
-      message: `Atualizando ${currentFile} via editor web`,
-      content: base64Content,
-      sha: currentSHA,
-      branch: branch
-    })
-  });
-
-  const data = await res.json();
-  if (data.content) {
-    currentSHA = data.content.sha;
-    alert(`${currentFile} atualizado com sucesso!`);
-  } else {
-    alert("Erro ao salvar: " + JSON.stringify(data));
+  try {
+    const res = await fetch(url, {
+      method: "PUT",
+      headers: {
+        "Authorization": `token ${token}`,
+        "Accept": "application/vnd.github.v3+json"
+      },
+      body: JSON.stringify({
+        message: `Atualizando ${currentFile} via editor web`,
+        content: base64Content,
+        sha: currentSHA,
+        branch: branch
+      })
+    });
+    const data = await res.json();
+    if (data.content) {
+      currentSHA = data.content.sha;
+      alert(`${currentFile} atualizado com sucesso!`);
+    } else {
+      alert("Erro ao salvar: " + JSON.stringify(data));
+    }
+  } catch(err) {
+    alert("Erro de conexão: " + err);
   }
 }
 
 document.getElementById("loadBtn").addEventListener("click", fetchJSON);
 document.getElementById("saveBtn").addEventListener("click", saveJSON);
 
-// Carrega o arquivo inicial
+// Carrega automaticamente o arquivo inicial
 fetchJSON();
 </script>
 
