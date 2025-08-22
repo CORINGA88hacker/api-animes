@@ -1,5 +1,22 @@
 [
   {
+    "id": "1087192-1-1",
+    "nome": " ",
+    "numero": 1,
+    "descricao": "Filho cheio de imaginação, mas negligenciado, do Chefe Stoico, Soluço desafia séculos de tradição quando faz amizade com Banguela, um temido dragão Fúria da Noite. Seu vínculo improvável revela a verdadeira natureza dos dragões, desafiando os próprios fundamentos da sociedade viking. Com a feroz e ambiciosa Astrid e o peculiar ferreiro Bocão Bonarroto ao seu lado, Soluço confronta um mundo dilacerado pelo medo e por mal-entendidos. Quando uma antiga ameaça reaparece, colocando em perigo tanto os vikings quanto os dragões, a amizade de Soluço e Banguela se torna a chave para forjar um novo futuro. Juntos, eles devem trilhar o delicado caminho em direção à paz, ultrapassando os li16mites de seus mundos e redefinindo o que significa ser herói e líder.",
+    "duracao": "125",
+    "data_lancamento": "2025-06-06",
+    "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/AtAI3mz5upKhRmLGF24zpxw3sgV.jpg",
+    "temporada_id": "1087192-1",
+    "legendado": "",
+    "dublado": "https://s3.tebi.io/mangaszen/index.html",
+    "tmdb_id": "31132-1-1",
+    "data_criacao": "2010-09-06T00:00:00.000Z",
+    "data_atualizacao": "2025-08-16T04:32:35.846Z",
+    "comeco": "",
+    "final": ""
+  },
+  {
     "id": "31132-1-2",
     "nome": "Apenas Arrumem as Cadeiras",
     "numero": 2,
@@ -251,23 +268,6 @@
     "tmdb_id": "75214-1-13",
     "data_criacao": "2018-04-05T00:00:00.000Z",
     "data_atualizacao": "2025-08-22T00:47:25.846Z",
-    "comeco": "",
-    "final": ""
-  },
-  {
-    "id": "1087192-1-1",
-    "nome": " ",
-    "numero": 1,
-    "descricao": "Filho cheio de imaginação, mas negligenciado, do Chefe Stoico, Soluço desafia séculos de tradição quando faz amizade com Banguela, um temido dragão Fúria da Noite. Seu vínculo improvável revela a verdadeira natureza dos dragões, desafiando os próprios fundamentos da sociedade viking. Com a feroz e ambiciosa Astrid e o peculiar ferreiro Bocão Bonarroto ao seu lado, Soluço confronta um mundo dilacerado pelo medo e por mal-entendidos. Quando uma antiga ameaça reaparece, colocando em perigo tanto os vikings quanto os dragões, a amizade de Soluço e Banguela se torna a chave para forjar um novo futuro. Juntos, eles devem trilhar o delicado caminho em direção à paz, ultrapassando os li16mites de seus mundos e redefinindo o que significa ser herói e líder.",
-    "duracao": "125",
-    "data_lancamento": "2025-06-06",
-    "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/AtAI3mz5upKhRmLGF24zpxw3sgV.jpg",
-    "temporada_id": "1087192-1",
-    "legendado": "",
-    "dublado": "https://s3.tebi.io/mangaszen/index.html",
-    "tmdb_id": "31132-1-1",
-    "data_criacao": "2010-09-06T00:00:00.000Z",
-    "data_atualizacao": "2025-08-16T04:32:35.846Z",
     "comeco": "",
     "final": ""
   },
