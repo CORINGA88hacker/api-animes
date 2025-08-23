@@ -459,6 +459,23 @@
   "final": ""
 },
   {
+  "id": "31132-2-1",
+  "nome": "Olá Senhor",
+  "numero": 1,
+  "descricao": "Rigby fica com medo de um filme de terror onde um carro é o vilão, Mordecai tenta ajudar seu amigo a se livrar dos pesadelos.",
+  "duracao": "11",
+  "data_lancamento": "2010-11-29",
+  "thumbnail": "https://image.tmdb.org/t/p/w500/t8Fs1aqsoyGo9k0rtEBvJ1ZQJi8.jpg",
+  "temporada_id": "31132-2",
+  "legendado": "",
+  "dublado": "https://s3.tebi.io/animeees/Apenas%20um%20Show/2%20temporada/html/2x1.html",
+  "tmdb_id": "31132-2-1",
+  "data_criacao": "2010-11-29T00:00:00.000Z",
+  "data_atualizacao": "2025-08-23T03:26:44.792Z",
+  "comeco": "",
+  "final": ""
+}
+  {
     "id": "94664-1-1",
     "nome": "Reencarnação sem emprego",
     "numero": "1",
