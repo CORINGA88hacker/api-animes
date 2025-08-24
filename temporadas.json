@@ -1,5 +1,19 @@
 [
   {
+    "id": "281615-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/qYK9kCN23Lrg9jcPh1QDBL0PeWw.jpg",
+    "anime_id": "281615",
+    "total_episodios": 12,
+    "tmdb_id": "281615-1",
+    "data_criacao": "2025-07-04",
+    "data_atualizacao": "2025-08-24T20:25:30.988Z"
+    "coluna": ""
+  },
+  {
     "id": "75214-1",
     "nome": "Temporada 1",
     "numero": 1,
@@ -11,7 +25,7 @@
     "tmdb_id": "75214-1",
     "data_criacao": "2018-01-11T00:00:00.000Z",
     "data_atualizacao": "2025-08-22T00:45:51.697Z",
-    "coluna": "Romance"
+    "coluna": ""
   },
   {
     "id": "1087192-1",
