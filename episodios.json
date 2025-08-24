@@ -1,5 +1,22 @@
 [
   {
+    "id": "1311031-1-1",
+    "nome": "Demon Slayer: Kimetsu no Yaiba Castelo Infinito (2025)",
+    "numero": 1,
+    "descricao": "O Corpo de Caçadores de Demônios confronta os Doze Kizuki restantes antes de enfrentar Muzan na Fortaleza Infinita para derrotá-lo de uma vez por todas.",
+    "duracao": "24",
+    "data_lancamento": "2025-07-04",
+    "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/c55sXCaQBj3vuHqZe62tv90xCQS.jpg",
+    "temporada_id": "281615-1",
+    "legendado": "http://www.anipixel.info/m/13064",
+    "dublado": "",
+    "tmdb_id": "1311031-1-1",
+    "data_criacao": "2025-07-04T00:00:00.000Z",
+    "data_atualizacao": "2025-08-24T20:44:43.522Z",
+    "comeco": "",
+    "final": ""
+  },
+  {
     "id": "281615-1-1",
     "nome": "Vida Pacata Perigosa",
     "numero": 1,
