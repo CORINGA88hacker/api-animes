@@ -1,6 +1,6 @@
 [
   {
-  "id": 281615,
+  "id": "281615",
   "nome": "The Water Magician",
   "titulo_original": "水属性の魔法使い",
   "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
@@ -8,22 +8,22 @@
   "ano": "2025",
   "status": "Returning Series",
   "pais": "JP",
-  "duracao_episodio": 24,
+  "duracao_episodio": "24",
   "classificacao": "+",
-  "popularidade": 21.7454,
+  "popularidade": "21.7454",
   "trailer": "",
   "capa": "https://image.tmdb.org/t/p/w500/qYK9kCN23Lrg9jcPh1QDBL0PeWw.jpg",
   "banner": "https://image.tmdb.org/t/p/w1280/s7LgF8NmL0Qi9fWAeZvOBx9s2jy.jpg",
   "logo": "",
   "thumbnail": "",
-  "tmdb_id": 281615,
+  "tmdb_id": "281615",
   "imdb_id": "",
   "data_criacao": "2025-08-24T18:45:16.823Z",
   "data_atualizacao": "2025-08-24T18:45:16.823Z",
   "coluna": "Fandublagem",
   "linguagem": "ja",
   "msg": "",
-  "qualidade": ""
+  "qualidade": "HD"
 },
   {
   "id": "1311031",
