@@ -1,5 +1,19 @@
 [
   {
+    "id": "138357-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Vagando pelas ruas à noite, um adolescente entediado conhece uma vampira e decide ser como ela. Mas, primeiro, ele vai ter que se apaixonar.",
+    "ano": "2022",
+    "capa": "https://image.tmdb.org/t/p/w500/tjkVB0d60PU7OaiQwbwhc3yG6nw.jpg",
+    "anime_id": "138357-1",
+    "total_episodios": 13,
+    "tmdb_id": "138357-1",
+    "data_criacao": "2022-07-06T00:00:00.000Z",
+    "data_atualizacao": "2025-08-25T07:34:35.066Z",
+    "coluna": ""
+  },
+  {
     "id": "281615-1",
     "nome": "Temporada 1",
     "numero": 1,
