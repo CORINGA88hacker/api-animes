@@ -1,5 +1,22 @@
 [
   {
+    "id": "138357-1-1",
+    "nome": "1ª noite: o primeiro voo",
+    "numero": 1,
+    "descricao": "Sem conseguir dormir, o adolescente Ko Yamori sai para um passeio noturno e encontra uma garota misteriosa.",
+    "duracao": "23",
+    "data_lancamento": "2022-07-08",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/sOdkq1P3z3TUlXAmwMDufFz4P5r.jpg",
+    "temporada_id": "138357-1",
+    "legendado": "https://s3.tebi.io/animes0/Isekai%20Mokushiroku%20Mynoghra%3A%20Hametsu%20no%20Bunmei%20de%20Hajimeru%20Sekai%20Seifuku/html/1x1.html",
+    "dublado": "",
+    "tmdb_id": "138357-1-1",
+    "data_criacao": "2022-07-08T00:00:00.000Z",
+    "data_atualizacao": "2025-08-25T07:36:03.467Z",
+    "comeco": "",
+    "final": ""
+ },
+  {
     "id": "281615-1-1",
     "nome": "Vida Pacata Perigosa",
     "numero": 1,
