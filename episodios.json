@@ -1,5 +1,22 @@
 [
   {
+  "id": "209867-1-1",
+  "nome": "O fim da aventura",
+  "numero": 1,
+  "descricao": "Após derrotar o Rei Demônio, o grupo de Frieren, Himmel, Eisen e Heiter retorna para a Capital Imperial e vivem tempos de paz. Cinquenta anos se passam e o grupo se reencontra. Frieren não mudou nada, mas seus companheiros envelheceram...",
+  "duracao": "26",
+  "data_lancamento": "2023-09-29",
+  "thumbnail": "https://image.tmdb.org/t/p/w500/2nWCvV3yzLcofyo3LVyS1w7uu2s.jpg",
+  "temporada_id": "209867-1",
+  "legendado": "https://www.anroll.net/e/HchxsDJSQk",
+  "dublado": "https://www.anroll.net/e/aSMNcgUkxa",
+  "tmdb_id": "209867-1-1",
+  "data_criacao": "2023-09-29T00:00:00.000Z",
+  "data_atualizacao": "2025-08-26T18:21:33.724Z",
+  "comeco": "",
+  "final": ""
+},
+  {
     "id": "279182-1-1",
     "nome": "Episódio 1",
     "numero": 1,
