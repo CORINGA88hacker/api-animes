@@ -1,4 +1,32 @@
 [
+   {
+    "id": "209867-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2023",
+    "capa": "https://image.tmdb.org/t/p/w500/xgcpzPczYVSckEWVaz11b71rC0z.jpg",
+    "anime_id": "209867-1",
+    "total_episodios": 28,
+    "tmdb_id": "209867-1",
+    "data_criacao": "2023-09-29T00:00:00.000Z",
+    "data_atualizacao": "2025-08-26T17:33:20.519Z",
+    "coluna": ""
+  },
+  {
+    "id": "209867-2",
+    "nome": "Temporada 2",
+    "numero": 2,
+    "descricao": "Sem descrição",
+    "ano": "",
+    "capa": "https://image.tmdb.org/t/p/w500/oLg0rTckGCPjpBojHclrbdGgD5u.jpg",
+    "anime_id": "209867-2",
+    "total_episodios": 0,
+    "tmdb_id": "209867-2",
+    "data_criacao": "",
+    "data_atualizacao": "2025-08-26T17:33:20.958Z",
+    "coluna": ""
+  },
   {
     "id": "279182-1",
     "nome": "Temporada 1",
