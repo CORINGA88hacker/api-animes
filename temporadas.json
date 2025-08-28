@@ -1,5 +1,19 @@
 [
   {
+    "id": "387-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Bob Esponja mora em uma casa-abacaxi submarina e se mete em inúmeras desventuras com seus amigos esquisitos e seu caracol de estimação.",
+    "ano": "1999",
+    "capa": "https://image.tmdb.org/t/p/w500/5U3Ke71EVdYON8mrVvnc1fYvikN.jpg",
+    "anime_id": "387-1",
+    "total_episodios": 41,
+    "tmdb_id": "387-1",
+    "data_criacao": "1999-05-01T00:00:00.000Z",
+    "data_atualizacao": "2025-08-28T07:02:11.842Z",
+    "coluna": ""
+  },
+  {
     "id": "232230-1",
     "nome": "Temporada 1",
     "numero": 1,
