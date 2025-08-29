@@ -1,5 +1,19 @@
 [
-    {
+  {
+    "id": "127532-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2024",
+    "capa": "https://image.tmdb.org/t/p/w500/451lpwzbSKClDUHmKxOcBboBf7E.jpg",
+    "anime_id": "127532",
+    "total_episodios": 25,
+    "tmdb_id": "127532-1",
+    "data_criacao": "2024-01-07T00:00:00.000Z",
+    "data_atualizacao": "2025-08-29T02:37:51.972Z",
+    "coluna": "Populares"
+  },
+  {
     "id": "203737-1",
     "nome": "Temporada 1",
     "numero": 1,
