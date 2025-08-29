@@ -1,5 +1,19 @@
 [
   {
+    "id": "110070-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2021",
+    "capa": "https://image.tmdb.org/t/p/w500/qYZusFwAUcXso2i9tWSg2DFCxX5.jpg",
+    "anime_id": "110070-1",
+    "total_episodios": 13,
+    "tmdb_id": "110070-1",
+    "data_criacao": "2021-01-10T00:00:00.000Z",
+    "data_atualizacao": "2025-08-29T06:55:35.479Z",
+    "coluna": ""
+  },
+  {
     "id": "261392-1",
     "nome": "Temporada 1",
     "numero": 1,
