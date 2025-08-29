@@ -1,0 +1,14 @@
+{
+  "categorias": [
+    { "id": 1, "nome": "Ação", "icone": "url_para_icone_acao" },
+    { "id": 2, "nome": "Aventura", "icone": "url_para_icone_aventura" },
+    { "id": 3, "nome": "Comédia", "icone": "url_para_icone_comedia" },
+    { "id": 4, "nome": "Drama", "icone": "url_para_icone_drama" },
+    { "id": 5, "nome": "Fantasia", "icone": "url_para_icone_fantasia" },
+    { "id": 6, "nome": "Romance", "icone": "url_para_icone_romance" },
+    { "id": 7, "nome": "Terror", "icone": "url_para_icone_terror" },
+    { "id": 8, "nome": "Isekai", "icone": "url_para_icone_isekai" },
+    { "id": 9, "nome": "Esporte", "icone": "url_para_icone_esporte" },
+    { "id": 10, "nome": "Slice of Life", "icone": "url_para_icone_slice_of_life" }
+  ]
+}
