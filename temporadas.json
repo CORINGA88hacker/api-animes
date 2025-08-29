@@ -1,4 +1,18 @@
 [
+    {
+    "id": "131041-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2022",
+    "capa": "https://image.tmdb.org/t/p/w500/2cmEkoiUbktAhV1Rw9GgZEDpOOA.jpg",
+    "anime_id": "131041",
+    "total_episodios": 38,
+    "tmdb_id": "131041-1",
+    "data_criacao": "2022-10-09T00:00:00.000Z",
+    "data_atualizacao": "2025-08-29T03:41:34.703Z",
+    "coluna": ""
+  },
   {
     "id": "127532-1",
     "nome": "Temporada 1",
