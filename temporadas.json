@@ -1,5 +1,19 @@
 [
   {
+    "id": "284445-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/hHi73lMz7VNR2kohciLXP1IptB3.jpg",
+    "anime_id": "284445-1",
+    "total_episodios": 6,
+    "tmdb_id": "284445-1",
+    "data_criacao": "2025-06-28T00:00:00.000Z",
+    "data_atualizacao": "2025-08-30T22:02:23.295Z",
+    "coluna": ""
+  },
+  {
     "id": "259559-1",
     "nome": "Temporada 1",
     "numero": 1,
