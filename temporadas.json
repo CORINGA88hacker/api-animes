@@ -1,4 +1,32 @@
 [
+    {
+    "id": "88803-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2019",
+    "capa": "https://image.tmdb.org/t/p/w500/8Sih4LoQucb7ActfTcA5BkIS9Ua.jpg",
+    "anime_id": "88803-1",
+    "total_episodios": 24,
+    "tmdb_id": "88803-1",
+    "data_criacao": "2019-07-08T00:00:00.000Z",
+    "data_atualizacao": "2025-08-30T22:14:20.885Z",
+    "coluna": ""
+  },
+  {
+    "id": "88803-2",
+    "nome": "Temporada 2",
+    "numero": 2,
+    "descricao": "Com o alvorecer de um novo milênio, Thorfinn luta para encontrar um significado em sua vida. Enquanto isso, o novo Rei da Inglaterra busca expandir seu território.",
+    "ano": "2023",
+    "capa": "https://image.tmdb.org/t/p/w500/7BwBilp19GklJGUy6IBFnuoQ12B.jpg",
+    "anime_id": "88803-2",
+    "total_episodios": 24,
+    "tmdb_id": "88803-2",
+    "data_criacao": "2023-01-10T00:00:00.000Z",
+    "data_atualizacao": "2025-08-30T22:14:21.327Z",
+    "coluna": ""
+  },
   {
     "id": "284445-1",
     "nome": "Temporada 1",
