@@ -1,5 +1,19 @@
 [
   {
+    "id": "44310-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2009",
+    "capa": "https://image.tmdb.org/t/p/w500/5WrDPKO5Lfp8eAP4uJOw5o4mEsL.jpg",
+    "anime_id": "44310-1",
+    "total_episodios": 12,
+    "tmdb_id": "44310-1",
+    "data_criacao": "2009-10-07T00:00:00.000Z",
+    "data_atualizacao": "2025-08-30T06:58:42.033Z",
+    "coluna": ""
+  },
+  {
     "id": "207332-1",
     "nome": "Temporada 1",
     "numero": 1,
