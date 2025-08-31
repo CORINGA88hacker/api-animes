@@ -573,6 +573,20 @@
     "data_atualizacao": "2025-08-25T07:34:35.066Z",
     "coluna": ""
   },
+    {
+    "id": "138357-2",
+    "nome": "Temporada 2",
+    "numero": 2,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/xNYCIkCmMib4oKhEsLfBuhbPXuz.jpg",
+    "anime_id": "138357-2",
+    "total_episodios": 12,
+    "tmdb_id": "138357-2",
+    "data_criacao": "2025-07-04T00:00:00.000Z",
+    "data_atualizacao": "2025-08-31T07:56:32.571Z",
+    "coluna": ""
+  },
   {
     "id": "281615-1",
     "nome": "Temporada 1",
