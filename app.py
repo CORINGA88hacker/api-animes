@@ -39,7 +39,7 @@ def api_temporadas():
 
 @app.route("/Api/novos/", methods=["GET"])
 def api_temporadas():
-    data = get_json_from_url(URL_TEMPORADAS)
+    data = get_json_from_url(URL_NOVOS)
     return jsonify(data)
 
 
