@@ -9671,5 +9671,22 @@
     "data_atualizacao": "2025-08-31T06:50:40.633Z",
     "comeco": "",
     "final": ""
-  }  
+  },
+  {
+  "id": "271607-1-9",
+  "nome": "Episódio 9",
+  "numero": 9,
+  "descricao": "",
+  "duracao": "24",
+  "data_lancamento": "2025-08-31",
+  "thumbnail": "https://image.tmdb.org/t/p/w500/y8TqA2W1MnlnOHZJf1tsCYWisTr.jpg",
+  "temporada_id": "271607-1",
+  "legendado": "https://www.anroll.net/e/uCgvNcGX9A",
+  "dublado": "",
+  "tmdb_id": "271607-1-9",
+  "data_criacao": "2025-08-31T00:00:00.000Z",
+  "data_atualizacao": "2025-08-31T07:59:01.965Z",
+  "comeco": "",
+  "final": ""
+}
 ]
