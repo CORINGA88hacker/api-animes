@@ -7,6 +7,7 @@ app = Flask(__name__)
 URL_ANIMES = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/animes.json"
 URL_EPISODIOS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/episodios.json"
 URL_TEMPORADAS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/temporadas.json"
+URL_NOVOS = "https://github.com/CORINGA88hacker/api-animes/blob/main/novos.json"
 
 
 def get_json_from_url(url):
@@ -31,6 +32,12 @@ def api_episodios():
 
 
 @app.route("/Api/temporadas/", methods=["GET"])
+def api_temporadas():
+    data = get_json_from_url(URL_TEMPORADAS)
+    return jsonify(data)
+
+
+@app.route("/Api/novos/", methods=["GET"])
 def api_temporadas():
     data = get_json_from_url(URL_TEMPORADAS)
     return jsonify(data)
