@@ -1,3 +1,19 @@
 [
-
+  {
+    "id": "88803-1-1",
+    "nome": "Qualquer Lugar Menos Aqui",
+    "numero": 1,
+    "descricao": "Thorfinn, um menino islandês, anseia por aventura e almeja saber mais sobre o mundo. Ele sonha com a paradisíaca Vinland, sobre a qual o aventureiro Leif lhe conta, enquanto ele leva sua vida pacífica com Thors, seu pai, um antigo guerreiro. Um dia, Thors salva um escravo em fuga, desencadeando uma série de eventos. Esta é a saga de um guerreiro real em uma era turbulenta.",
+    "duracao": "29",
+    "data_lancamento": "2019-07-08",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/4DW0fGvoQgH9eODch7j21Yshzdj.jpg",
+    "temporada_id": "88803-1",
+    "legendado": "https://www.anroll.net/e/pWZE4OR9Rf",
+    "dublado": "",
+    "tmdb_id": "88803-1-1",
+    "data_criacao": "2019-07-08T00:00:00.000Z",
+    "data_atualizacao": "2025-08-30T22:15:53.690Z",
+    "comeco": "",
+    "final": ""
+  }
 ]
