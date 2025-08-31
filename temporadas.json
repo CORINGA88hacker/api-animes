@@ -1,5 +1,19 @@
 [
-    {
+  {
+    "id": "195459-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2023",
+    "capa": "https://image.tmdb.org/t/p/w500/4zyqQjwTYgaybCYFmHqmMfEndWX.jpg",
+    "anime_id": "195459",
+    "total_episodios": 24,
+    "tmdb_id": "195459-1",
+    "data_criacao": "2023-10-01T00:00:00.000Z",
+    "data_atualizacao": "2025-08-31T05:56:20.852Z",
+    "coluna": ""
+  },
+  {
     "id": "88803-1",
     "nome": "Temporada 1",
     "numero": 1,
