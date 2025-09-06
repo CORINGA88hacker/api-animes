@@ -1,5 +1,33 @@
 [
-    {
+  {
+    "id": "207784-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Masmorras, dragões e... ensopadinho de monstro!? Em uma missão de resgate em um reino amaldiçoado, um grupo de aventureiros provoca o caos e cozinha pratos deliciosos.",
+    "ano": "2024",
+    "capa": "https://image.tmdb.org/t/p/w500/q8gN7dsgBVxYtX3fGqTTogckVnD.jpg",
+    "anime_id": "207784-1",
+    "total_episodios": 24,
+    "tmdb_id": "207784-1",
+    "data_criacao": "2024-01-04T00:00:00.000Z",
+    "data_atualizacao": "2025-09-06T20:56:27.775Z",
+    "coluna": ""
+  },
+  {
+    "id": "207784-2",
+    "nome": "Temporada 2",
+    "numero": 2,
+    "descricao": "Sem descrição",
+    "ano": "",
+    "capa": "https://image.tmdb.org/t/p/w500/1sBehN6RU7GL6udtdv5w0N7GXtu.jpg",
+    "anime_id": "207784",
+    "total_episodios": 0,
+    "tmdb_id": "207784-2",
+    "data_criacao": "",
+    "data_atualizacao": "2025-09-06T20:56:27.777Z",
+    "coluna": ""
+  },
+  {
     "id": "272059-1",
     "nome": "Temporada 1",
     "numero": 1,
