@@ -8,7 +8,7 @@ URL_ANIMES = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/
 URL_EPISODIOS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/episodios.json"
 URL_TEMPORADAS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/temporadas.json"
 URL_NOVOS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/novos.json"
-URL_NOVOS = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/genero.json"
+URL_GENERO = "https://raw.githubusercontent.com/CORINGA88hacker/api-animes/refs/heads/main/genero.json"
 
 
 def get_json_from_url(url):
