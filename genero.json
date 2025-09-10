@@ -5,61 +5,75 @@
      "capa": "https://s3.tebi.io/categoria/acao.jpg"
   },
   {
+     "id": "genero",
      "genero": "Aventura",
      "capa": "https://s3.tebi.io/categoria/aventura.jpg"
   },
   {
+     "id": "genero",
      "genero": "Comédia",
      "capa": "https://s3.tebi.io/categoria/comedia.jpg"
   },
   {
+     "id": "genero",
      "genero": "Drama",
      "capa": "https://s3.tebi.io/categoria/drama.jpg"
   },
   {
+     "id": "genero",
      "genero": "Fantasia",
      "capa": "https://s3.tebi.io/categoria/fantacia.jpg"
   },
   {
+     "id": "genero",
      "genero": "Música",
      "capa": "https://s3.tebi.io/categoria/musica.jpg"
   },
   {
+     "id": "genero",
      "genero": "Romance",
      "capa": "https://s3.tebi.io/categoria/romance.jpg"
   },
   {
+     "id": "genero",
      "genero": "Ficção Científica",
      "capa": "https://s3.tebi.io/categoria/sci.jpg"
   },
   {
+     "id": "genero",
      "genero": "Seinen",
      "capa": "https://s3.tebi.io/categoria/seinen.jpg"
   },
   {
+     "id": "genero",
      "genero": "Shoujo",
      "capa": "https://s3.tebi.io/categoria/shojo.jpg"
   },
   {
+     "id": "genero",
      "genero": "Shounen",
      "capa": "https://s3.tebi.io/categoria/shonen.jpg"
   },
   {
+     "id": "genero",
      "genero": "Slice-of-Life",
      "capa": "https://s3.tebi.io/categoria/18.jpg"
   },
-  {
+  { 
+     "id": "genero",
      "genero": "Esportes",
      "capa": "https://s3.tebi.io/categoria/sports.jpg"
   },
-    {
+  {
+     "id": "genero",
      "genero": "Sobrenatural",
      "capa": "https://s3.tebi.io/categoria/sbrenatural.jpg"
   },
   {
+     "id": "genero",
      "genero": "Suspense",
      "capa": "https://s3.tebi.io/categoria/treiler.jpg"
   }
-
 ]
+
 
