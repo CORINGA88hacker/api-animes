@@ -26,6 +26,12 @@ def api_animes():
     return jsonify(data)
 
 
+@app.route("/Api/genero/", methods=["GET"])
+def api_genero():
+    data = get_json_from_url(URL_GENERO)
+    return jsonify(data)
+
+
 @app.route("/Api/episodios/", methods=["GET"])
 def api_episodios():
     data = get_json_from_url(URL_EPISODIOS)
