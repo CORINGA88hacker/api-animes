@@ -33,30 +33,30 @@
   },
   {
      "genero": "Seinen",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/seinen.jpg"
   },
   {
      "genero": "Shoujo",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/shojo.jpg"
   },
   {
      "genero": "Shounen",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/shonen.jpg"
   },
   {
      "genero": "Slice-of-Life",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/18.jpg"
   },
   {
      "genero": "Esportes",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/sports.jpg"
   },
     {
      "genero": "Sobrenatural",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/sbrenatural.jpg"
   },
   {
      "genero": "Suspense",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/treiler.jpg"
   }
 ]
