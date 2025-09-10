@@ -1,7 +1,8 @@
 [
   {
      "genero": "Ação",
-     "capa": "https://s3.tebi.io/categoria/acao.jpg"
+     "capa": "https://s3.tebi.io/categoria/acao.jpg",
+     "id": "genero"
   },
   {
      "genero": "Aventura",
@@ -59,4 +60,5 @@
      "genero": "Suspense",
      "capa": "https://s3.tebi.io/categoria/treiler.jpg"
   }
+
 ]
