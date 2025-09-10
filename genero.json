@@ -1,8 +1,8 @@
 [
   {
+     "id": "genero",
      "genero": "Ação",
-     "capa": "https://s3.tebi.io/categoria/acao.jpg",
-     "id": "genero"
+     "capa": "https://s3.tebi.io/categoria/acao.jpg"
   },
   {
      "genero": "Aventura",
@@ -62,3 +62,4 @@
   }
 
 ]
+
