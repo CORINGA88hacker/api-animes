@@ -44,12 +44,6 @@ def api_novos():
     return jsonify(data)
 
 
- @app.route("/Api/genero/", methods=["GET"])
-def api_genero():
-    data = get_json_from_url(URL_GENERO)
-    return jsonify(data)
-
-
 @app.route("/Api/pesquisa", methods=["GET"])
 def api_pesquisa():
     nome = request.args.get("nome")  # parâmetro ?nome=
