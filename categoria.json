@@ -1,6 +1,6 @@
 {
   "categorias": [
-    { "id": 1, "nome": "Ação", "icone": "url_para_icone_acao" },
+    { "id": 1, "nome": "Ação", "icone": "https://s3.tebi.io/categoria/acao.jpg" },
     { "id": 2, "nome": "Aventura", "icone": "url_para_icone_aventura" },
     { "id": 3, "nome": "Comédia", "icone": "url_para_icone_comedia" },
     { "id": 4, "nome": "Drama", "icone": "url_para_icone_drama" },
