@@ -1,23 +1,23 @@
 [
   {
      "genero": "Ação",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/acao.jpg"
   },
   {
      "genero": "Aventura",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/aventura.jpg"
   },
   {
      "genero": "Comédia",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/comedia.jpg"
   },
   {
      "genero": "Drama",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/drama.jpg"
   },
   {
      "genero": "Fantasia",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/fantacia.jpg"
   },
   {
      "genero": "Música",
