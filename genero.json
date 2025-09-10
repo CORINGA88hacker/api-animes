@@ -21,15 +21,15 @@
   },
   {
      "genero": "Música",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/musica.jpg"
   },
   {
      "genero": "Romance",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/romance.jpg"
   },
   {
      "genero": "Ficção Científica",
-     "capa": ""
+     "capa": "https://s3.tebi.io/categoria/sci.jpg"
   },
   {
      "genero": "Seinen",
