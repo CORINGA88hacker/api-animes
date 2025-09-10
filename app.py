@@ -50,7 +50,6 @@ def api_genero():
     return jsonify(data)
 
 
-
 @app.route("/Api/pesquisa", methods=["GET"])
 def api_pesquisa():
     nome = request.args.get("nome")  # parâmetro ?nome=
