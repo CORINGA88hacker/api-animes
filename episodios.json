@@ -10997,5 +10997,39 @@
     "data_atualizacao": "2025-09-02T01:11:46.137Z",
     "comeco": "",
     "final": ""
+  },
+   {
+    "id": "553932-1-1",
+    "nome": "The Royal Tutor – O Filme",
+    "numero": 1,
+    "descricao": "Os príncipes do Reino de Romano acompanham o rei numa viagem para Glanzreich e, para fortalecer a diplomacia entre as nações, passam uma temporada ao lado dos príncipes deste reino. O tutor real Heine é encarregado da educação deles, mas terá que lidar com as visões de mundo diferentes de cada pupilo.",
+    "duracao": "61",
+    "data_lancamento": "2019-02-16",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/96z2nt0c8agVjlfvDys5n1LeBfL.jpg",
+    "temporada_id": "553932-1",
+    "legendado": "https://saitamauydb.blogspot.com/2025/09/oushitsu-kyoushi-heine-movie.html",
+    "dublado": "",
+    "tmdb_id": "553932-1-1",
+    "data_criacao": "2019-02-16T00:00:00.000Z",
+    "data_atualizacao": "2025-09-12T04:39:08.340Z",
+    "comeco": "",
+    "final": ""
+  },
+  {
+    "id": "504253-1-1",
+    "nome": "Eu Quero Comer seu Pâncreas",
+    "numero": 1,
+    "descricao": "Um dia, ele encontra um diário em um hospital. O diário pertence a sua colega de classe, uma garota chamada Yamauchi Sakura, que se revela estar sofrendo de uma doença terminal em seu pâncreas e que tem apenas alguns meses de vida. Sakura explica a ele que é a única pessoa fora de sua família que sabe sobre sua condição. Ele promete manter o segredo de Sakura e, apesar de suas personalidades completamente opostas, ele decide estar junto com Sakura durante seus últimos meses.",
+    "duracao": "109",
+    "data_lancamento": "2018-09-01",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/8xAwcL3ALTHzHMKkVIApiKwVEzt.jpg",
+    "temporada_id": "504253-1",
+    "legendado": "https://saitamauydb.blogspot.com/2025/09/kimi-no-suizou-wo-tabetai.html",
+    "dublado": "",
+    "tmdb_id": "504253-1-1",
+    "data_criacao": "2018-09-01T00:00:00.000Z",
+    "data_atualizacao": "2025-09-12T04:28:24.077Z",
+    "comeco": "",
+    "final": ""
   }
 ]
