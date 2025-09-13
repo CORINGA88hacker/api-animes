@@ -1,4 +1,32 @@
 [
+    {
+    "id": "119495-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2022",
+    "capa": "https://image.tmdb.org/t/p/w500/r3IHw82QFkLmggTG9QpBFpYArVM.jpg",
+    "anime_id": "119495-1",
+    "total_episodios": 20,
+    "tmdb_id": "119495-1",
+    "data_criacao": "2022-10-05T00:00:00.000Z",
+    "data_atualizacao": "2025-09-13T20:43:01.223Z",
+    "coluna": ""
+  },
+  {
+    "id": "119495-2",
+    "nome": "Temporada 2",
+    "numero": 2,
+    "descricao": "Tudo está indo conforme o planejado, mas a hora do despertar se aproxima. Cid Kagenou e o Shadow Garden investigam a Cidade Sem Lei, uma favela onde a lua vermelha paira baixa no céu e três poderosos monarcas governam as ruas. A verdadeira atração para Cid , no entanto, é alguém que pode drenar sangue, a Rainha de Sangue, uma vampira que dorme em seu caixão há eras. Seu despertar se aproxima e Cid pode finalmente enfrentar um dia de ajuste de contas.",
+    "ano": "2023",
+    "capa": "https://image.tmdb.org/t/p/w500/l4Pr6Wz0t4gMK750lop6d67W3DK.jpg",
+    "anime_id": "119495-2",
+    "total_episodios": 12,
+    "tmdb_id": "119495-2",
+    "data_criacao": "2023-10-04T00:00:00.000Z",
+    "data_atualizacao": "2025-09-13T20:43:01.710Z",
+    "coluna": ""
+  },
   {
     "id": "79141-1",
     "nome": "Temporada 1",
