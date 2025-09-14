@@ -1,4 +1,18 @@
 [
+    {
+    "id": "31911-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2009",
+    "capa": "https://image.tmdb.org/t/p/w500/eb4gveExqCR0AhYM3EmCahwvvyg.jpg",
+    "anime_id": "31911-1",
+    "total_episodios": 64,
+    "tmdb_id": "31911-1",
+    "data_criacao": "2009-04-05T00:00:00.000Z",
+    "data_atualizacao": "2025-09-14T05:51:21.511Z",
+    "coluna": ""
+  },
   {
     "id": "46260-1",
     "nome": "Temporada 1",
