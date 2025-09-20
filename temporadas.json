@@ -1,5 +1,47 @@
 [
   {
+    "id": "258228-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/bvyz4Iynskd4TfpNNypqjhI6GQs.jpg",
+    "anime_id": "258228-1",
+    "total_episodios": 13,
+    "tmdb_id": "258228-1",
+    "data_criacao": "2025-01-02T00:00:00.000Z",
+    "data_atualizacao": "2025-09-20T05:51:45.467Z",
+    "coluna": ""
+  },
+  {
+    "id": "250994-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/b1zyKF8ZjdOsiE1so4JTPEU0YHr.jpg",
+    "anime_id": "250994-1",
+    "total_episodios": 12,
+    "tmdb_id": "250994-1",
+    "data_criacao": "2025-01-02T00:00:00.000Z",
+    "data_atualizacao": "2025-09-20T05:45:47.515Z",
+    "coluna": ""
+  },
+  {
+    "id": "280906-1",
+    "nome": "Temporada 1",
+    "numero": 1,
+    "descricao": "Sem descrição",
+    "ano": "2025",
+    "capa": "https://image.tmdb.org/t/p/w500/tToSkSaiLBDT5DfAvxBcFUWV6Dj.jpg",
+    "anime_id": "280906-1",
+    "total_episodios": 13,
+    "tmdb_id": "280906-1",
+    "data_criacao": "2025-01-02T00:00:00.000Z",
+    "data_atualizacao": "2025-09-20T05:39:43.116Z",
+    "coluna": ""
+  },
+  {
     "id": "258348-1",
     "nome": "Temporada 1",
     "numero": 1,
